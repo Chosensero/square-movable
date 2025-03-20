@@ -1,24 +1,36 @@
-# square-movable
+# Square Movable
 
-This template should help get you started developing with Vue 3 in Vite.
+`Square Movable` — это интерактивное приложение, созданное с использованием Vue 3 и Vite. Оно позволяет пользователю изменять размер и перемещать квадрат на экране с помощью мыши, а также анимированно возвращать его в исходное состояние. Проект демонстрирует использование композаблов Vue для управления состоянием и анимациями с помощью GSAP.
 
-## Recommended IDE Setup
+## Описание
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Приложение предоставляет:
 
-## Type Support for `.vue` Imports in TS
+- **Перетаскивание сторон квадрата**: Изменяйте ширину и высоту квадрата, захватывая его края.
+- **Анимация сброса**: Кнопка для возвращения квадрата в центр с исходными размерами с плавной анимацией.
+- **Анимация появления**: Квадрат появляется на экране с эффектом увеличения и прозрачности.
+- **Типобезопасность**: Полная поддержка TypeScript для надежного кода.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Рекомендуемая настройка IDE
 
-## Customize configuration
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (отключите Vetur, если он установлен).
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Поддержка типов для импортов `.vue` в TypeScript
 
-## Project Setup
+TypeScript по умолчанию не обрабатывает типы для импортов `.vue`. Вместо `tsc` используется `vue-tsc` для проверки типов. В редакторах необходимо установить [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar), чтобы служба языка TypeScript распознавала типы `.vue`.
+
+## Настройка конфигурации
+
+См. [Справочник по конфигурации Vite](https://vite.dev/config/).
+
+## Project installation
+
+````sh
+npm install
 
 ```sh
 npm install
-```
+````
 
 ### Compile and Hot-Reload for Development
 
